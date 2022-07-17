@@ -1,0 +1,193 @@
+#nav_link_enter {
+    color: #fff;
+}
+
+/* SECTION 1 TITLE */
+.page_title {
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1920px;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 7.5rem 3.75rem 3.75rem 3.75rem;
+    background: radial-gradient(28.75% 100% at 50% 0%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #F2F2F2;
+}
+
+.page_title h1 {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+}
+
+/* SECTION 2  МЕТА */
+.section_type_1 {
+    height: min-content;
+    box-sizing: border-box;
+    padding: 3.75rem 0px;
+    width: 100vw;
+    max-width: 1920px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s2_body {
+    width: 100vw;
+    max-width: 1920px;
+    height: min-content;
+    min-height: 15.68rem;
+    background: url("../img/Lines_R+BG.png") no-repeat center bottom;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.s2_content_box {
+    height: min-content;
+    width: 50%;
+    max-width: 36.25rem;
+    box-sizing: border-box;
+    padding: 0 4.375rem 3.75rem 4.375rem;
+    margin-right: 50%;
+}
+
+.s2_content_box p {
+    text-align: right;
+}
+
+/* SECTION 3 */
+.section_type_2 {
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: min-content;
+    width: 100vw;
+    max-width: 1920px;
+    padding: 3.75rem;
+    background: radial-gradient(28.75% 100% at 50% 0%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3_title {
+    text-align: center;
+}
+
+.s3_text {
+    text-align: center;
+    margin-bottom: 0rem;
+    max-width: 1160px;
+}
+
+.s3_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s5_btn {
+    border: none;
+    width: 18.75rem;
+    height: 3.75rem;
+    box-sizing: border-box;
+    background: #CC0000;
+    color: #fff;
+    border-radius: 2.5rem;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 2.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.s5_btn:hover {
+    background-color: #ff2f2f;
+}
+
+/* SECTION 4 ДОЛУЧИТИСЯ */
+.section_type_3 {
+    height: min-content;
+    box-sizing: border-box;
+    padding: 3.75rem 0px;
+    width: 100vw;
+    max-width: 1920px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s4_body {
+    width: 100vw;
+    max-width: 1920px;
+    height: min-content;
+    min-height: 15.68rem;
+    background: url("../img/Lines_L+BG.png") no-repeat center top;
+}
+
+.s4_content_box {
+    height: min-content;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 4.375rem;
+    margin-left: 50%;
+}
+
+.s4_content_box h3,
+.s4_content_box p {
+    text-align: left;
+}
+
+.s4_content_box h3 {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 3em;
+    color: #000000;
+    margin-bottom: 2.5rem;
+    line-height: 1em;
+}
+
+.s5_btn {
+    border: none;
+    width: 18.75rem;
+    height: 3.75rem;
+    box-sizing: border-box;
+    background: #CC0000;
+    color: #fff;
+    border-radius: 2.5rem;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 2.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.s5_btn:hover {
+    background-color: #ff2f2f;
+}
+
+@media screen and (max-width: 960px) {
+    .s2_body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s2_content_box {
+        width: 100%;
+        max-width: auto;
+        margin-right: 0;
+    }
+
+    .s2_content_box p {
+        width: 100vw;
+    }
+}

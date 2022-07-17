@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap');
+
+
+/* FOOTER  */
+.footer_body {
+    width: 100vw;
+    height: 16rem;
+    box-sizing: border-box;
+    padding: 2.5rem 3rem;
+    background: rgba(26, 26, 26, 0.8);
+}
+
+.f_container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.f_left_half {
+    width: 50%;
+    min-width: 18rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.f_nav_list li {
+    margin-bottom: 0.5rem;
+}
+
+.f_link {
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 0.75em;
+    color: #CCCCCC;
+    transition: 0.3s ease-in-out;
+}
+
+.f_link:hover {
+    color: #fff;
+}
+
+.f_right_half {
+    width: 50%;
+    min-width: 18rem;
+    display: flex;
+    justify-content: right;
+}
+
+.social_box {
+    display: flex;
+}
+
+.soc_item {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0 0.75rem;
+    transition: 0.5s ease-in-out;
+}
+
+#soc_item1 {
+    background: url("../img/YT.svg") no-repeat 0 0;
+}
+
+#soc_item1:hover {
+    background: url("../img/yt_active.svg") no-repeat 0 0;
+}
+
+#soc_item2 {
+    background: url("../img/FB.svg") no-repeat 0 0;
+}
+
+#soc_item2:hover {
+    background: url("../img/fb_active.svg") no-repeat 0 0;
+}
+
+#soc_item3 {
+    background: url("../img/Twitter.svg") no-repeat 0 0;
+}
+
+#soc_item3:hover {
+    background: url("../img/twitter_active.svg") no-repeat 0 0;
+}
+
+#soc_item4 {
+    background: url("../img/IG.svg") no-repeat 0 0;
+}
+
+#soc_item4:hover {
+    background: url("../img/ig_active.svg") no-repeat 0 0;
+}
+
+#soc_item5 {
+    background: url("../img/TG.svg") no-repeat 0 0;
+    margin-right: 0;
+}
+
+#soc_item5:hover {
+    background: url("../img/tg_active.svg") no-repeat 0 0;
+}
+
+@media screen and (max-width: 671px) {
+    .footer_body {
+        height: min-content;
+    }
+
+    .f_container {
+        width: 100%;
+        max-width: 1160px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .f_right_half {
+        padding: 1.8rem 0 0 0;
+        display: flex;
+        justify-content: left;
+    }
+
+    #soc_item1 {
+        background: url("../img/YT.svg") no-repeat 0 0;
+        margin-left: 0;
+    }
+
+}

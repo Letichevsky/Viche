@@ -1,0 +1,6 @@
+<svg width="920" height="151" viewBox="0 0 920 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 146V146C5 65.9187 69.9187 1 150 1H920" stroke="#CC0000" stroke-opacity="0.5"/>
+<path d="M5 146V146C5 76.9644 60.9644 21 130 21H920" stroke="#CC0000" stroke-opacity="0.75" stroke-width="2"/>
+<path d="M5 146V146C5 88.0101 52.0101 41 110 41H920" stroke="#CC0000" stroke-width="4"/>
+<circle cx="5" cy="146" r="5" fill="#CC0000"/>
+</svg>

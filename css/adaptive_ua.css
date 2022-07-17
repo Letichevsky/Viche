@@ -1,0 +1,333 @@
+@media screen and (max-width: 1180px) {
+    .slider_item {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 72.5rem;
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        padding: 3.75rem 0 1.25rem 0;
+        align-items: center;
+    }
+
+    .s7_item_L_half {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: min-content;
+    }
+
+    .s7_image {
+        margin-bottom: 2.5rem;
+    }
+
+    .s7_item_R_half {
+        box-sizing: border-box;
+        width: 50%;
+        height: min-content;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s7_item_R_half h3,
+    .s7_item_R_half p {
+        text-align: center;
+    }
+
+    #s3_btn_slider {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    /* S2 */
+    .section_type_1 {
+        padding: 2.5rem 0px;
+
+    }
+
+    .s2_body {
+        background: none;
+        overflow: hidden;
+    }
+
+    .s2_background_tablet {
+        display: block;
+        margin: 2.5rem 0 0 15vw;
+        width: 100%;
+        height: 9.5rem;
+        background: url("../img/Lines_R_tablet.svg") no-repeat 0 0;
+    }
+
+    .s2_content_box {
+        width: 100%;
+        padding: 0 4.375rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s2_content_box h3,
+    .s2_content_box p {
+        text-align: center;
+        width: 70vw;
+    }
+
+    /* S3 */
+    .s3_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #s3_btn1 {
+        margin: 0 0 2.5rem 0;
+    }
+
+    .s3_video_box {
+        margin: 0 0 2.5rem 0;
+    }
+
+    .s3_social_box {
+        margin: 0;
+    }
+
+    /* S4 */
+    .section_type_3 {
+        padding: 2.5rem 0px;
+
+    }
+
+    .s4_body {
+        background: none;
+        overflow: hidden;
+    }
+
+    .s4_background_tablet {
+        display: block;
+        margin: 0 0rem 2.5rem -15vw;
+        width: 100%;
+        height: 9.5rem;
+        background: url("../img/Lines_L_tablet.svg") no-repeat right 0;
+    }
+
+    .s4_content_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 4.375rem;
+        margin: 0 auto;
+    }
+
+    .s4_content_box {
+        height: min-content;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0 4.375rem;
+
+    }
+
+    .s4_content_box h3,
+    .s4_content_box p {
+        text-align: center;
+        width: 70vw;
+    }
+
+    /* S6 */
+    .section_type_4 {
+        padding: 2.5rem 0px;
+
+    }
+
+    .s6_body {
+        background: none;
+        overflow: hidden;
+    }
+
+    .s6_background_tablet {
+        display: block;
+        margin: 2.5rem 0 0 15vw;
+        width: 100%;
+        height: 18.75rem;
+        background: url("../img/Photo_tablet.svg") no-repeat 0 0;
+    }
+
+    .s6_content_box {
+        width: 100%;
+        padding: 0 4.375rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s6_content_box h3,
+    .s6_content_box p {
+        text-align: center;
+        width: 70vw;
+    }
+
+    /* S7 */
+    .slider_item {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 100vw;
+        height: min-content;
+        display: flex;
+        padding: 2.5rem 0 1.25rem 0;
+        justify-content: center;
+    }
+
+    .s7_item_L_half {
+        width: 100%;
+        height: min-content;
+    }
+
+    .s7_item_R_half {
+        box-sizing: border-box;
+        width: 100%;
+        height: min-content;
+        padding: 0 3.75rem;
+    }
+
+    .s7_image {
+        /* 
+        original height
+        max-width: 36.25rem;
+        max-height: 20.37rem; 
+        */
+
+        max-width: 29rem;
+        max-height: 16.29rem;
+        margin-left: 0;
+    }
+
+    #s3_btn_slider {}
+
+    .slick-track {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /* Слайд */
+    .slick-slide {
+        overflow: hidden;
+    }
+
+    /* Слайд активный (показывается) */
+    .slick-slide.slick-active {}
+
+    /* Слайд основной */
+    .slick-slide.slick-current {}
+
+    /* Слайд по центру */
+    .slick-slide.slick-center {}
+
+    /* Клонированный слайд */
+    .slick-slide.slick-cloned {}
+
+}
+
+@media screen and (max-width: 566px) {
+
+    /* S6 */
+    .s6_background_tablet {
+        margin: 2.5rem 0 0 0;
+        background: url("../img/Photo_tablet_566.svg") no-repeat center center / cover;
+        overflow: hidden;
+    }
+
+    /* S7 */
+    .slider_item {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 100vw;
+        height: min-content;
+        display: flex;
+        padding: 2.5rem 0 1.25rem 0;
+        justify-content: center;
+    }
+
+    .s7_item_L_half {
+        width: 100%;
+        height: min-content;
+    }
+
+    .s7_item_R_half {
+        box-sizing: border-box;
+        width: 100%;
+        height: min-content;
+        padding: 0 3.75rem;
+    }
+
+    .s7_image {
+        /* 
+        original height
+        max-width: 36.25rem;
+        max-height: 20.37rem; 
+        */
+
+        max-width: 21.75rem;
+        max-height: 12.22rem;
+        margin-left: 0;
+    }
+
+    #s3_btn_slider {
+        width: 100%;
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /* Слайд */
+    .slick-slide {
+        overflow: hidden;
+    }
+
+    /* Слайд активный (показывается) */
+    .slick-slide.slick-active {}
+
+    /* Слайд основной */
+    .slick-slide.slick-current {}
+
+    /* Слайд по центру */
+    .slick-slide.slick-center {}
+
+    /* Клонированный слайд */
+    .slick-slide.slick-cloned {}
+
+}
+
+@media screen and (max-width: 450px) {
+    .s7_image {
+        /* 
+        original height
+        max-width: 36.25rem;
+        max-height: 20.37rem; 
+        */
+
+        max-width: 18.125rem;
+        max-height: 10.18rem;
+        margin-left: 0;
+    }
+
+    #s3_btn_slider {
+        width: 100%;
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    html {
+        font-size: 14px;
+    }
+
+    .section_type_5_carusel {
+        display: none;
+    }
+}

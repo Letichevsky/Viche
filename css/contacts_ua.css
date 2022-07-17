@@ -1,0 +1,100 @@
+/* SECTION 1 TITLE */
+.page_title {
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1920px;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 7.5rem 3.75rem 3.75rem 3.75rem;
+    background: radial-gradient(28.75% 100% at 50% 0%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #F2F2F2;
+}
+
+.page_title h1 {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* SECTION 3 ЗАДАЧИ */
+.section_type_2 {
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: min-content;
+    width: 100vw;
+    max-width: 1920px;
+    padding: 3.75rem;
+    background: radial-gradient(28.75% 100% at 50% 0%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3_title {
+    text-align: center;
+}
+
+.s3_text {
+    text-align: center;
+    margin-bottom: 0rem;
+    max-width: 1160px;
+}
+
+/* SECTION 4 BANKS  */
+#section_banks {
+    background: #fff;
+
+}
+
+.bank_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.s4_btn {
+    width: 18.75rem;
+    height: 3.75rem;
+    box-sizing: border-box;
+    background: none;
+    border: 0.125rem solid #CC0000;
+    color: #CC0000;
+    border-radius: 2.5rem;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 1.25rem;
+    transition: 0.3s ease-in-out;
+}
+
+.s4_btn:hover {
+    border: 0.225rem solid #cc0000;
+}
+
+.s3_video_box {
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    margin-top: 2.5rem;
+}
+
+.s3_video_box:hover {
+    opacity: 0.6;
+}
+
+.s3_video_icon {
+    width: 3.76rem;
+    height: 3.76rem;
+    background: url("../img/message_icon.svg") no-repeat 0 0 / cover;
+    margin-right: 1rem;
+}
+
+.s3_video_label {
+    font-family: 'Roboto Slab';
+}
